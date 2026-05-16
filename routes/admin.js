@@ -4,7 +4,7 @@ const path = require('path');
 const multer = require('multer');
 
 const router = express.Router();
-const User = require('../models/User');
+const User = require('../models/user');
 const Service = require('../models/Service');
 const Form = require('../models/Form');
 const Booking = require('../models/Booking');

@@ -3,7 +3,7 @@ const router  = express.Router();
 const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
-const User = require('../models/User');
+const User = require('../models/user');
 const Service = require('../models/Service');
 const Booking = require('../models/Booking');
 
